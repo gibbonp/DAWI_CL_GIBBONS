@@ -10,7 +10,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Entity
-@Table(name = "tb_peliculas")
+@Table(name = "tb_pelicula")
 @Getter
 @Setter
 @ToString
@@ -32,7 +32,7 @@ public class Pelicula {
 	@Column(name = "origen")
 	private String origen;
 	
-	@Column(name = "calificacion_edad")
+	@Column(name = "calificacion")
 	private String calificacion;
 	
 	@Column(name = "cod_categoria")
