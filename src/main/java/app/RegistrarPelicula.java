@@ -13,7 +13,7 @@ public class RegistrarPelicula {
 		
 		Pelicula p = new Pelicula();
 		
-		p.setCodigo(2004);
+		p.setCodigo("P004");
 		p.setNombre("IT");
 		p.setDuracion(90);
 		p.setDirector("MUSCHIETTI A.");

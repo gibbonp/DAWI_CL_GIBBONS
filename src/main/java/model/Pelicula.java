@@ -18,7 +18,7 @@ public class Pelicula {
 	
 	@Id
 	@Column(name = "cod_pelicula")
-	private int codigo;
+	private String codigo;
 	
 	@Column(name = "nom_pelicula")
 	private String nombre;
